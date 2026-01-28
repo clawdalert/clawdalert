@@ -1,16 +1,17 @@
-## Hi there 👋
+# ClawdAlert
 
-<!--
-**clawdalert/clawdalert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Real-time **bullish chance alerts** with risk-aware signals.
 
-Here are some ideas to get you started:
+## Features
+- BullishScore (0–100) with explainable reasons
+- Risk flags (LP removal, concentration, deployer patterns)
+- Alert tiers: Setup / Confirmed / Broken
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Status
+MVP in progress.
+
+## Roadmap
+- [ ] Onchain listeners
+- [ ] Feature engine (1m/5m/15m windows)
+- [ ] Alert bot (Farcaster/X/Telegram)
+- [ ] Backtesting
